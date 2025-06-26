@@ -1,17 +1,16 @@
 # New-Yor-City-Government-Job-Postings-Public-Dataset-Analysis-in-MySQL-and-Power-BI
 This project uses MySQL for cleaning and analyzing NYC government job postings and Power BI for interactive dashboards with key metrics and trends.
 
-New Yor City Government Job Postings Public Dataset Analysis in MySQL and Power BI
 
-Project Overview
+**Project Overview**
 The project is structured in four parts and aims to conduct an exploratory analysis of New York City government job postings. It leverages advanced data cleaning and transformation techniques in MySQL and presents insights through a Power BI dashboard with interactive visualizations.
 ________________________________________
-Source
+**Source**
 The database was accessed on the DATA.GOV government website, link: https://catalog.data.gov/dataset/nyc-jobs 
 Accessed on 5/31/2025.
 ________________________________________
 
-1. Preparation of the CSV File for MySQL Import
+**1. Preparation of the CSV File for MySQL Import**
 •	Columns used:
 
 B (Agency), C (Posting Type), D (# Of Positions), F (Civil Service Title), J (Job Category), K (Full-Time/Part-Time Indicator), L (Career Level), M (Salary Range From), N (Salary Range To), O (Salary Frequency), P (Work Location), AA (Posting Date)
@@ -25,7 +24,7 @@ Posting_Type, Number_Of_Positions, Civil_Service_Title, Job_Category, Full-Time_
 •	File renamed to:
 "Jobs_NYC_Postings_SQL_Ready"
 ________________________________________
-2. Data Cleaning and Transformation in MySQL
+**2. Data Cleaning and Transformation in MySQL**
 
 •	Remove duplicates: Using GROUP BY, HAVING, and DELETE statements
 
@@ -39,7 +38,7 @@ ________________________________________
 
 •	Group job categories into 14 main groups: Using LIKE, UPDATE, SELECT DISTINCT
 ________________________________________
-3. Data Analysis in MySQL
+**3. Data Analysis in MySQL**
 
 •	Overall metrics:
 
@@ -63,7 +62,7 @@ ________________________________________
 
 •	Percentages of distributions calculated using nested SELECT COUNT()/SUM() queries
 ________________________________________
-4. Power BI Dashboard Development
+**4. Power BI Dashboard Development**
 •	KPI Cards:
 o	Total job postings
 
@@ -86,5 +85,14 @@ o	Bar charts for top agencies and titles
 o	Tables showing breakdowns by job category and salary bracket with counts and % of total
 
 ________________________________________
-4. Files 
+**5. Project Files**
 
+•	**Jobs_NYC_Postings_Original.csv** - The original raw dataset of NYC government job postings (CSV)
+•	**Jobs_NYC_Postings_SQL_Ready.csv** -  Formatted CSV file prepared for MySQL import
+• **Data_Cleaning_and_Transformation.sql** - MySQL script for data cleaning, normalization, and transformation
+•	**Jobs_NYC_Postings_Cleaned.csv** -Exported dataset after cleaning and processing in MySQL
+• **Data_Analysis_and_Visualization.sql** - MySQL script containing analysis queries used to generate insights and prepare data for visualization
+• **Data_Visualisation_Queries** - Folder with Excel files exported from MySQL query results, used as source data for Power BI
+• **Jobs_NYC_Final_PoweBI_Report.pbix** - Power BI project file containing the interactive dashboard and visualizations
+• **Jobs_NYC_Final_PoweBI_Report.pdf** -  PDF export of the Power BI dashboard for offline viewing
+• **README.pdf** - PDF version of the project README with documentation and instructions
