@@ -90,7 +90,7 @@ ________________________________________
 Below is a list of files included in this project. To run the analysis script, please download the files and adjust the file paths accordingly. Otherwise, a PDF version of the output results is available for review.
 
 
-•	**Jobs_NYC_Postings_Original.csv** - The original raw dataset of NYC government job postings (CSV)
+•	**Jobs_NYC_Postings_Original.csv** - The original raw dataset of NYC government job postings (CSV file was too large to upload but it can always be accessed at this link: https://catalog.data.gov/dataset/nyc-jobs)
 
 •	**Jobs_NYC_Postings_SQL_Ready.csv** -  Formatted CSV file prepared for MySQL import
 
