@@ -3,10 +3,13 @@ This project uses MySQL for cleaning and analyzing NYC government job postings a
 
 
 **Project Overview**
+
 The project is structured in four parts and aims to conduct an exploratory analysis of New York City government job postings. It leverages advanced data cleaning and transformation techniques in MySQL and presents insights through a Power BI dashboard with interactive visualizations.
 ________________________________________
 **Source**
+
 The database was accessed on the DATA.GOV government website, link: https://catalog.data.gov/dataset/nyc-jobs 
+
 Accessed on 5/31/2025.
 ________________________________________
 
