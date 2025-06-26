@@ -91,11 +91,19 @@ Below is a list of files included in this project. To run the analysis script, p
 
 
 •	**Jobs_NYC_Postings_Original.csv** - The original raw dataset of NYC government job postings (CSV)
+
 •	**Jobs_NYC_Postings_SQL_Ready.csv** -  Formatted CSV file prepared for MySQL import
+
 • **Data_Cleaning_and_Transformation.sql** - MySQL script for data cleaning, normalization, and transformation
+
 •	**Jobs_NYC_Postings_Cleaned.csv** -Exported dataset after cleaning and processing in MySQL
+
 • **Data_Analysis_and_Visualization.sql** - MySQL script containing analysis queries used to generate insights and prepare data for visualization
+
 • **Data_Visualisation_Queries** - Folder with Excel files exported from MySQL query results, used as source data for Power BI
+
 • **Jobs_NYC_Final_PoweBI_Report.pbix** - Power BI project file containing the interactive dashboard and visualizations
+
 • **Jobs_NYC_Final_PoweBI_Report.pdf** -  PDF export of the Power BI dashboard for offline viewing
+
 • **README.pdf** - PDF version of the project README with documentation and instructions
